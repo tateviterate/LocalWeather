@@ -1,0 +1,17 @@
+body{
+	background: url(images/pexels-photo-436383.jpeg) no-repeat;
+	background-size: cover;
+	
+}
+.content{
+	margin-top: 100px;
+	color: #fff;
+	text-shadow: 2px 4px 1px #333;
+}
+
+@media screen and (max-width: 480px){
+	body{
+		height: max-content;
+		background-size: inherit;
+	}
+}

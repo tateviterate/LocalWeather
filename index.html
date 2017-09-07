@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+  <div class="content row">
+  <h1 id="content">Please wait...</h1>
+  
+  <div class="weather col-md-6 col-sm-9 col-md-offset-2 text-center invisible">
+      <h1 id="city"></h1>
+      <h2>
+      <img id="icon" src="" alt="">
+        <span  id="temp"></span> 
+
+      </h2>
+      <div>
+        <button id="cels" class="btn btn-info btn-lg" type="button" > °C</button>
+        <button id="far" class="btn btn-info btn-lg" type="button" > °F</button>
+      </div>
+       <div>
+         <h3 id="humidity">Humidity: </h3>
+         <h3 id="wind">Wind:  </h3>
+       </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src = "script.js"></script>
+
+
+</body>
+</html>
